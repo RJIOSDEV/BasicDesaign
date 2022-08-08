@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="tcell" id="1ey-Pe-HjX" customClass="threeCollectionViewCell" customModule="BasicDesaign" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="167"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="167"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="select reminder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oIt-Oz-DaU">
+                        <rect key="frame" x="0.0" y="5" width="393" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jXc-2W-5TH">
+                        <rect key="frame" x="20" y="45.5" width="112" height="31.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Oh3-3p-dzt">
+                                <rect key="frame" x="0.0" y="-4.5" width="40.5" height="40.5"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="26" scale="large" weight="bold"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8:00:000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aY8-u1-X9S">
+                                <rect key="frame" x="40.5" y="0.0" width="71.5" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="l1I-7B-KlR">
+                        <rect key="frame" x="182" y="45.5" width="116" height="31.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="BrF-kQ-gtz">
+                                <rect key="frame" x="0.0" y="-4" width="39.5" height="39.5"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="26" scale="large"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8:00:000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xio-AI-G1u">
+                                <rect key="frame" x="44.5" y="0.0" width="71.5" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xQa-RJ-1Go">
+                        <rect key="frame" x="20" y="117" width="112" height="31.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="PW8-YP-f6R">
+                                <rect key="frame" x="0.0" y="-4.5" width="40.5" height="40.5"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="26" scale="large" weight="bold"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8:00:000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pum-QC-lY5">
+                                <rect key="frame" x="40.5" y="0.0" width="71.5" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="oGU-T8-cOR"/>
+            <constraints>
+                <constraint firstItem="l1I-7B-KlR" firstAttribute="leading" secondItem="jXc-2W-5TH" secondAttribute="trailing" constant="50" id="42d-7P-nTT"/>
+                <constraint firstAttribute="trailing" secondItem="oIt-Oz-DaU" secondAttribute="trailing" id="48h-Bf-Xph"/>
+                <constraint firstItem="oIt-Oz-DaU" firstAttribute="top" secondItem="1ey-Pe-HjX" secondAttribute="top" constant="5" id="7EO-ZQ-9O6"/>
+                <constraint firstItem="xQa-RJ-1Go" firstAttribute="top" secondItem="jXc-2W-5TH" secondAttribute="bottom" constant="40" id="Aeo-vi-CYe"/>
+                <constraint firstItem="l1I-7B-KlR" firstAttribute="top" secondItem="oIt-Oz-DaU" secondAttribute="bottom" constant="20" id="bjq-Nd-Amt"/>
+                <constraint firstItem="xQa-RJ-1Go" firstAttribute="leading" secondItem="1ey-Pe-HjX" secondAttribute="leading" constant="20" id="bwO-Ez-JIc"/>
+                <constraint firstItem="oIt-Oz-DaU" firstAttribute="leading" secondItem="1ey-Pe-HjX" secondAttribute="leading" id="gMr-WE-0o1"/>
+                <constraint firstItem="jXc-2W-5TH" firstAttribute="leading" secondItem="1ey-Pe-HjX" secondAttribute="leading" constant="20" id="hbt-wj-vBW"/>
+                <constraint firstItem="jXc-2W-5TH" firstAttribute="top" secondItem="oIt-Oz-DaU" secondAttribute="bottom" constant="20" id="oJa-j8-bSc"/>
+            </constraints>
+            <size key="customSize" width="393" height="167"/>
+            <point key="canvasLocation" x="180.43478260869566" y="239.39732142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="clock.fill" catalog="system" width="128" height="121"/>
+    </resources>
+</document>

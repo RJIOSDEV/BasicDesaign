@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="onecell" id="M1e-lx-MNv" customClass="twoCollectionViewCell" customModule="BasicDesaign" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="403" height="130"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="403" height="130"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="select show commitment on screen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Don-0b-sj7">
+                        <rect key="frame" x="0.0" y="10" width="403" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="00C-lo-E6t">
+                        <rect key="frame" x="0.0" y="91.5" width="403" height="31"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BUB-hY-Lhw" customClass="CheckBox4" customModule="BasicDesaign" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="134.5" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="checkmark.seal" catalog="system" title="4"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p5Q-1k-ueM" customClass="CheckBox5" customModule="BasicDesaign" customModuleProvider="target">
+                                <rect key="frame" x="134.5" y="0.0" width="134" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="checkmark.seal" catalog="system" title="5"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6t-pr-OLC" customClass="CheckBox6" customModule="BasicDesaign" customModuleProvider="target">
+                                <rect key="frame" x="268.5" y="0.0" width="134.5" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="checkmark.seal" catalog="system" title="6"/>
+                            </button>
+                        </subviews>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qdo-ft-6Kv">
+                        <rect key="frame" x="0.0" y="40.5" width="403" height="31"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WdA-BM-4BU" customClass="CheckBox1" customModule="BasicDesaign" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="134.5" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="checkmark.seal" catalog="system" title="1"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iWc-pW-CEb" customClass="CheckBox2" customModule="BasicDesaign" customModuleProvider="target">
+                                <rect key="frame" x="134.5" y="0.0" width="134" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="checkmark.seal" catalog="system" title="2"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XGj-5f-UH7" customClass="CheckBox3" customModule="BasicDesaign" customModuleProvider="target">
+                                <rect key="frame" x="268.5" y="0.0" width="134.5" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="checkmark.seal" catalog="system" title="3"/>
+                            </button>
+                        </subviews>
+                    </stackView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="7ey-Al-lax"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Don-0b-sj7" firstAttribute="top" secondItem="M1e-lx-MNv" secondAttribute="top" constant="10" id="5To-Jg-B4g"/>
+                <constraint firstAttribute="trailing" secondItem="00C-lo-E6t" secondAttribute="trailing" id="D7g-yT-Kgi"/>
+                <constraint firstAttribute="trailing" secondItem="qdo-ft-6Kv" secondAttribute="trailing" id="DFe-5Q-hgb"/>
+                <constraint firstItem="Don-0b-sj7" firstAttribute="leading" secondItem="M1e-lx-MNv" secondAttribute="leading" id="IRt-02-AIa"/>
+                <constraint firstItem="qdo-ft-6Kv" firstAttribute="leading" secondItem="M1e-lx-MNv" secondAttribute="leading" id="Jaj-JM-X26"/>
+                <constraint firstItem="qdo-ft-6Kv" firstAttribute="top" secondItem="Don-0b-sj7" secondAttribute="bottom" constant="10" id="TUa-gv-TJ1"/>
+                <constraint firstItem="00C-lo-E6t" firstAttribute="top" secondItem="qdo-ft-6Kv" secondAttribute="bottom" constant="20" id="cxM-ZE-nJ6"/>
+                <constraint firstItem="00C-lo-E6t" firstAttribute="leading" secondItem="M1e-lx-MNv" secondAttribute="leading" id="dQ4-LQ-1km"/>
+                <constraint firstAttribute="trailing" secondItem="Don-0b-sj7" secondAttribute="trailing" id="jzi-Qc-Pvf"/>
+            </constraints>
+            <size key="customSize" width="403" height="130"/>
+            <connections>
+                <outlet property="btn1stck" destination="00C-lo-E6t" id="4VR-iA-EIn"/>
+                <outlet property="btn2stack" destination="qdo-ft-6Kv" id="UZ1-m9-gBx"/>
+                <outlet property="lbl2" destination="Don-0b-sj7" id="tx9-8j-a3N"/>
+            </connections>
+            <point key="canvasLocation" x="-44" y="104"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="checkmark.seal" catalog="system" width="128" height="128"/>
+    </resources>
+</document>
